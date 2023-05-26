@@ -48,7 +48,7 @@ export default {
 }
 
 .status {
-  color: #92959e;
+  color: #ffffff;
 }
 
 .new-messages {

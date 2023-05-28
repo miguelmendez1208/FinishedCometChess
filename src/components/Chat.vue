@@ -197,7 +197,7 @@ export default {
 }
 
 .middle-panel {
-  margin-left: 30%;
+  margin-left: 40%;
  
   
 }

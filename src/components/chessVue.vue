@@ -74,9 +74,10 @@ export default {
 <style>
 .messages {
   margin: 0;
-  padding: 20px;
+  padding: 0px;
 }
 .message {
   list-style: none;
 }
+
 </style>

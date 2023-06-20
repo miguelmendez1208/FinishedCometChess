@@ -1,18 +1,13 @@
-# Private messaging with Socket.IO
-
-Please read the related guide:
-
-- [Part I](https://socket.io/get-started/private-messaging-part-1/): initial implementation
-- [Part II](https://socket.io/get-started/private-messaging-part-2/): persistent user ID
-- [Part III](https://socket.io/get-started/private-messaging-part-3/): persistent messages
-- [Part IV](https://socket.io/get-started/private-messaging-part-4/): scaling up
-
 ## Running the frontend
 
 ```
 npm install
 npm run serve
 ```
+#build the frontend image
+```
+docker build -t front .
+docker run -p 8080:8080 front
 
 ### Running the server
 
@@ -20,4 +15,10 @@ npm run serve
 cd server
 npm install
 npm start
+```
+
+#build the backend image
+```
+docker build -t back .
+docker run -p 3000:3000 back
 ```

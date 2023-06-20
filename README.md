@@ -8,15 +8,13 @@ npm run serve
 ```
 docker build -t front .
 docker run -p 8080:8080 front
-
+```
 ### Running the server
-
 ```
 cd server
 npm install
 npm start
 ```
-
 #build the backend image
 ```
 docker build -t back .

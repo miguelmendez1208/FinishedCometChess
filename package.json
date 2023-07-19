@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@chrisoakman/chessboardjs": "^1.0.0",
+    "@vue/cli-service-global": "^4.5.19",
     "chess.js": "^1.0.0-beta.3",
     "core-js": "^3.6.5",
     "jquery": "^3.6.3",
